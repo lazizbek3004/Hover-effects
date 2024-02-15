@@ -1,0 +1,187 @@
+.container{
+    width: 400px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.each{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.each:nth-child(1){
+    background-color: hsl(275, 80%, 51%);
+    color: white;
+    transition: all 0.25s;
+}
+.each p{
+    color: white;
+    width: 80px;
+    text-align: center;
+    font-size: 8px;
+}
+.each h1{
+    color: white;
+    font-size: 14px;
+}
+.forPosition{
+    position: absolute;
+    top: 45px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: all 0.25s;
+    border-left: 10px solid hsl(275, 80%, 51%);
+    z-index: 10;
+}
+.each:nth-child(1):hover{
+    background-color: hsl(203, 81%, 30%);
+}
+.each:nth-child(1):hover .forPosition{
+    border-left: 10px solid hsl(203, 81%, 30%);
+}
+.each:nth-child(2){
+    background-color: hsl(203, 81%, 47%);
+    color: white;
+    transition: all 0.25s;
+}
+.each:nth-child(2) .forPosition{
+    position: absolute;
+    top: 45px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: all 0.25s;
+    border-left: 10px solid hsl(203, 81%, 47%);
+    z-index: 10;
+}
+.each:nth-child(2):hover{
+    background-color: hsl(203, 81%, 30%);
+}
+.each:nth-child(2):hover .forPosition{
+    border-left: 10px solid hsl(203, 81%, 30%);
+}
+.each:nth-child(3){
+    background-color: hsl(120, 77%, 30%);
+    color: white;
+    transition: all 0.25s;
+}
+.each:nth-child(3) .forPosition{
+    position: absolute;
+    top: 45px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: all 0.25s;
+    border-left: 10px solid hsl(120, 77%, 30%);
+    z-index: 10;
+}
+.each:nth-child(3):hover{
+    background-color: hsl(203, 81%, 30%);
+}
+.each:nth-child(3):hover .forPosition{
+    border-left: 10px solid hsl(203, 81%, 30%);
+}
+.each:nth-child(4){
+    background-color: hsl(120, 77%, 55%);
+    color: white;
+    transition: all 0.25s;
+}
+.each:nth-child(4):hover{
+    background-color: hsl(203, 81%, 30%);
+}
+.each:nth-child(5){
+    background-color: hsl(39, 91%, 60%);
+    color: white;
+    transition: all 0.25s;
+}
+.each:nth-child(5) .forPosition{
+    position: absolute;
+    top: 45px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: all 0.25s;
+    border-left: 10px solid hsl(39, 91%, 60%);
+    z-index: 10;
+}
+.each:hover{
+    background-color: hsl(203, 81%, 30%);
+}
+.each:hover .forPosition{
+    border-left: 10px solid hsl(203, 81%, 30%);
+}
+.each:nth-child(6){
+    background-color: hsl(39, 91%, 40%);
+    color: white;
+    transition: all 0.25s;
+}
+.each:nth-child(6) .forPosition{
+    position: absolute;
+    top: 45px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: all 0.25s;
+    border-left: 10px solid hsl(39, 91%, 40%);
+    z-index: 10;
+}
+.each:hover{
+    background-color: hsl(203, 81%, 30%);
+}
+.each:hover .forPosition{
+    border-left: 10px solid hsl(203, 81%, 30%);
+}
+.each:nth-child(7){
+    background-color: hsl(314, 85%, 54%);
+    color: white;
+    transition: all 0.25s;
+}
+.each:nth-child(7) .forPosition{
+    position: absolute;
+    top: 45px;
+    right: -9px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: all 0.25s;
+    border-left: 10px solid hsl(314, 85%, 54%);
+    z-index: 10;
+}
+.each:nth-child(8){
+    background-color: hsl(120, 77%, 30%);
+    color: white;
+    transition: all 0.25s;
+}
+.each:hover{
+    background-color: hsl(203, 81%, 30%);
+}
+.each:hover .forPosition{
+    border-left: 10px solid hsl(203, 81%, 30%);
+}
+
+
+
+
+
+
+
+
